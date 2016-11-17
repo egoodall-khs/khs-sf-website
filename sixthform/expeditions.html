@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Expeditions</title>
+	<meta charset="utf-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/cufon-yui.js"></script>
+	<script src="../js/Sansation_300.font.js"></script>
+	<script src="../js/Sansation_400-Sansation_700.font.js"></script>
+	<script src="../js/hoverIntent.js"></script>
+	<script src="../js/jquery.bgiframe.min.js"></script> 
+	<script src="../js/superfish.js"></script>
+	<script src="../js/supersubs.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="../js/jquery.nivo.slider.js"></script>
+	<script src="../js/jquery.innerfade.js"></script>
+	<script src="../js/jquery.quicksand.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../js/browserDetect.js"></script>
+
+	<!-- ************************************ SKIN ************************************ -->
+	<!-- Uncomment the SKIN you want to use (make sure to only have one of the following lines uncommented) -->
+
+	<!-- Light -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/skins/sixth/blue.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/red.css" /> -->
+
+	<!-- Dark -->    
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/red.css" /> -->
+
+	<!-- Extra Dark -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/red.css" /> -->
+
+	<!-- Unique Skins -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/spring/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/fancy/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/nature/skin.css" /> -->
+	<!-- ******************************************************************************* -->
+
+	<style>
+		/************************************ NARROW LAYOUT *********************************/
+		/* If you want to have the layout not stretch to the browser borders (narrow) then uncomment the following line: */
+		 #container { width: 960px!important; }
+		/************************************************************************************/
+
+		/************************************ BACKGROUND ************************************/
+		/* You can use a solid background color... */
+		body { background-color: #d7d7d7; }
+
+		/* ...or select one of the available backgrounds (uncomment the background you want to display): */
+		/* body { background: url('images/backgrounds/background1.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background2.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background3.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background4.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background5.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background6.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background7.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background8.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background9.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background10.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background11.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background12.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background13.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background14.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background15.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background16.jpg') repeat scroll center top; } */
+		/************************************************************************************/
+
+		/************************************ TRANSPARENCY **********************************/
+		/* If using one of the DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/dark/transparent_bg.png'); } */
+
+		/* If using one of the EXTRA DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/extra_dark/transparent_bg.png'); } */
+		/************************************************************************************/
+	</style>
+
+	<script>
+		/*************************** IMPORTANT - TOP NAVIGATION FONT ************************/
+		/* If using one of the LIGHT or SPRING skins uncomment the following line and comment all others: */
+		Cufon.replace('.menu .nav > li > a', { hover: true });
+
+		/* If using one of the DARK, EXTRA DARK or FANCY skins uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(51, 51, 51, 1)', hover: true });
+
+		/* If using the NATURE skin uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(12, 147, 47, 1)', hover: true });
+		/************************************************************************************/
+	</script>
+</head>
+<body>
+	
+<!--BEGIN #header-->
+		
+<div id="header">
+
+	<!--BEGIN .menu-->
+			<div class="menu rounded-all">
+			<ul class="nav">
+			<li><a href="../index.html" title="KHS Website">Main School Site</a></li>
+			<li><a href="../sixthformindex.html" title="SixthFormHome">Home</a></li>
+            <li><a href="about.html" Title="about">About</a></li>
+            <li><a href="subjects.html" Title="subjects">Subjects</a></li>
+            <li><a href="facilities.html" Title="Facilties">Facilities</a></li>
+       	    <li><a href="enrichment.html" title="Enrichment">Enrichment</a>
+            
+           <ul>
+            <li><a href="aqabac.html" title="aqabac">Baccalaureate</a></li>
+            <li><a href="pse.html" title="pse">PSE</a></li>
+            <li class="current_page_item"><a href="expeditions.html" title="Expeditions">Expeditions</a></li>
+           	</ul>
+            
+            </li>
+			<li><a href="admissions.html" title="Admissions">Admissions</a></li>
+            <li><a href="team.html" title="Contact Us">Contact Us</a></li>
+			</li>
+            </ul>
+            
+		<!--END .menu-->
+  </div>
+		
+<!--END #header-->
+</div>
+
+<!--BEGIN #sub-header-->
+	<div id="sub-header" class="rounded-top">
+
+		<div id="sub-header-content">
+
+			<!-- Custom Image -->
+			<img id="sub-header-image" src="images/placeholders/900by250/expeditions_1.png" />
+
+			<!-- Meta Text -->
+		  
+
+		</div>
+
+	<!--END #sub-header-->
+</div>
+
+	<!--BEGIN #container-->
+	<div id="container">
+
+				<div id="sub-header-footer">
+			<div id="sub-header-nav">
+            
+            
+				<a href="../sixthformindex.html">Home</a> <span class="delimiter">&raquo;</span><span class="current">Expeditions</span>
+			</div>
+
+			
+
+		</div>
+
+    <!--BEGIN #content-->
+		<div id="content" class="page clearfix">
+		<div class="two-third">
+
+		<h3>Expeditions with KHS</h3>
+            
+          
+
+
+            
+            
+            <p><span class="dropcap-bg rounded-all">K</span>esgrave High School Sixth Form has a proud record of encouraging our students to “look beyond” their academic studies and has, in the past, provided opportunities for teams to travel to South Africa, Greece and Zambia to participate in conservation and community based projects. These educational visits have always had a profound impact on the students and have promoted communication, team work and leadership skills and provided them with a unique opportunity to develop these skills further whilst on expedition in an unfamiliar environment. Skills that we believe will help them through their remaining studies and in later life.</p>
+	  	
+<p>Only students attending KHS Sixth Form are eligible, but there is no requirement for any specific subject knowledge. However, it must be emphasised that a student’s sixth form studies must come first and all team members will be expected to maintain commitment towards their studies.</p>
+
+<p>Expeditions are about personal improvement, a true life experience, they are tough and are certainly not holidays - students expecting luxury should not apply! Expeditions do not suit everyone and hardships will need to be endured, but those students with an ambitious and adventurous spirit can look forward to an experience that they will never forget.</p>
+
+<p>For further details please contact Miss Anderson (Head of Environmental Science) or Mr Stapleton (Assistant Headteacher).</p>
+
+</div>
+
+
+<div class="one-third last">
+
+<H3>Expedition Information</H3>
+
+<li>Current Expedition: <a href="expedphotogallery/south_africa_2013.html">Shamwari 2013</a></li>
+<li>Past Expeditions: <a href="expedphotogallery/southafrica.html">2009</a>, <a href="expedphotogallery/greece.html">2010</a>, <a href="expedphotogallery/zambia.html">2012</a></li>
+<li><a href="expedphotogallery/expedition_2014.html">Future Expedition 2014</a></li>
+<li><a href="expedphotogallery/schedule.html">Expedition Schedule</a></li>
+<li><a href="expedphotogallery/funding.html">Funding and Sponsorship</a></li>
+
+<br>
+<H3>Our Sponsors</H3>
+
+<script type="text/javascript" src="expedphotogallery/sponsors_bz/bzLoader.js"></script>
+
+<noscript><p style="background-color:#ffffff;color:#000000;padding:1em;">Your browser doesn't support JavaScript or you have disabled JavaScript.</p></noscript><div id="SWBZD15346BF990D46D8ADBC"></div><div id="LKBZD15346BF990D46D8ADBC"></div>
+
+
+
+        
+
+		<!--END #content-->
+		</div></div>
+
+	<!--END #container-->
+	</div>
+
+
+	<!--BEGIN #footer-container-->
+	<div id="footer-container" class="rounded-bottom">
+
+		<!--BEGIN #footer-->
+		<div id="footer" class="clearfix">
+
+			<p id="copyright">KHS Copyright &copy; 2013</p>
+
+		  <ul id="social">
+			<li><a href="http://www.twitter.com/kesgravehigh"><img src="../images/twitter1.png" alt="Twitter" /></a></li>
+				
+		  </ul>
+
+		<!--END #footer-->
+	  </div>
+        
+	<!--END #footer-container-->
+	</div>
+
+<!--END body-->
+</body>
+<!--END html-->
+</html>

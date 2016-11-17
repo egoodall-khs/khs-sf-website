@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Sixth Form Curriculum</title>
+	<meta charset="utf-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/cufon-yui.js"></script>
+	<script src="../js/Sansation_300.font.js"></script>
+	<script src="../js/Sansation_400-Sansation_700.font.js"></script>
+	<script src="../js/hoverIntent.js"></script>
+	<script src="../js/jquery.bgiframe.min.js"></script> 
+	<script src="../js/superfish.js"></script>
+	<script src="../js/supersubs.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="../js/jquery.nivo.slider.js"></script>
+	<script src="../js/jquery.innerfade.js"></script>
+	<script src="../js/jquery.quicksand.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../js/browserDetect.js"></script>
+
+	<!-- ************************************ SKIN ************************************ -->
+	<!-- Uncomment the SKIN you want to use (make sure to only have one of the following lines uncommented) -->
+
+	<!-- Light -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/skins/sixth/blue.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/red.css" /> -->
+
+	<!-- Dark -->    
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/red.css" /> -->
+
+	<!-- Extra Dark -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/red.css" /> -->
+
+	<!-- Unique Skins -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/spring/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/fancy/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/nature/skin.css" /> -->
+	<!-- ******************************************************************************* -->
+
+	<style>
+		/************************************ NARROW LAYOUT *********************************/
+		/* If you want to have the layout not stretch to the browser borders (narrow) then uncomment the following line: */
+		 #container { width: 960px!important; }
+		/************************************************************************************/
+
+		/************************************ BACKGROUND ************************************/
+		/* You can use a solid background color... */
+		body { background-color: #d7d7d7; }
+
+		/* ...or select one of the available backgrounds (uncomment the background you want to display): */
+		/* body { background: url('images/backgrounds/background1.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background2.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background3.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background4.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background5.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background6.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background7.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background8.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background9.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background10.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background11.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background12.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background13.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background14.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background15.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background16.jpg') repeat scroll center top; } */
+		/************************************************************************************/
+
+		/************************************ TRANSPARENCY **********************************/
+		/* If using one of the DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/dark/transparent_bg.png'); } */
+
+		/* If using one of the EXTRA DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/extra_dark/transparent_bg.png'); } */
+		/************************************************************************************/
+	</style>
+
+	<script>
+		/*************************** IMPORTANT - TOP NAVIGATION FONT ************************/
+		/* If using one of the LIGHT or SPRING skins uncomment the following line and comment all others: */
+		Cufon.replace('.menu .nav > li > a', { hover: true });
+
+		/* If using one of the DARK, EXTRA DARK or FANCY skins uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(51, 51, 51, 1)', hover: true });
+
+		/* If using the NATURE skin uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(12, 147, 47, 1)', hover: true });
+		/************************************************************************************/
+	</script>
+</head>
+<body>
+	
+<!--BEGIN #header-->
+		
+<div id="header">
+
+	<!--BEGIN .menu-->
+			<div class="menu rounded-all">
+			<ul class="nav">
+			<li><a href="../index.html" title="KHS Website">Main School Site</a></li>
+			<li><a href="../sixthformindex.html" title="SixthFormHome">Home</a></li>
+            <li><a href="about.html" Title="about">About</a></li>
+            <li class="current_page_item"><a href="subjects.html" Title="subjects">Subjects</a></li>
+            <li><a href="facilities.html" Title="Facilties">Facilities</a></li>
+       	    <li><a href="enrichment.html" title="Enrichment">Enrichment</a>
+            
+           <ul>
+            <li><a href="aqabac.html" title="aqabac">Baccalaureate</a></li>
+            <li><a href="pse.html" title="pse">PSE</a></li>
+            <li><a href="expeditions.html" title="Expeditions">Expeditions</a></li>
+           	</ul>
+            
+            </li>
+			<li><a href="admissions.html" title="Admissions">Admissions</a></li>
+            <li><a href="team.html" title="Contact Us">Contact Us</a></li>
+			</li>
+            </ul>
+            
+		<!--END .menu-->
+  </div>
+		
+<!--END #header-->
+</div>
+
+<!--BEGIN #sub-header-->
+	<div id="sub-header" class="rounded-top">
+
+		<div id="sub-header-content">
+
+			<!-- Custom Image -->
+			<img id="sub-header-image" src="images/placeholders/900by250/general3.png" />
+
+			<!-- Meta Text -->
+		  <h2 class="rounded-right">Subjects</h2>
+
+		</div>
+
+	<!--END #sub-header-->
+</div>
+
+	<!--BEGIN #container-->
+	<div id="container">
+
+				<div id="sub-header-footer">
+
+			<div id="sub-header-nav">
+				<a href="../sixthformindex.html">Home</a> <span class="delimiter">&raquo;</span><span class="current"> Subjects</span>
+			</div>
+
+			
+
+		</div>
+
+    <!--BEGIN #content-->
+		<div id="content" class="full-width-page">
+			<h3>Post 16 Curriculum</h3>
+            
+            
+            
+            
+            <p><span class="dropcap-bg rounded-all">K</span>esgrave students are encouraged to select four subjects from our range of Level 3 AS options. We also offer Level 3 Applied A Levels and BTECs, which have a stronger vocational component. These qualifications are assessed through coursework and examinations and will be examined at a level between GCSE and A Level standard, with students selecting three subjects to continue at the more demanding A2 standard in Year 13. This will enable students to study a broader curriculum, whilst retaining the specialist knowledge and understanding which characterises the Level 3 qualifications.</p>
+            
+
+
+<h3>Entrance Requirements</h3>
+<p>To be successful in Level 3 courses including Advanced Level, Applied A Levels and BTEC’s, it is widely agreed that students need to have achieved at least 6 A* - C grades in separate subjects to be successful, including Grade C in Maths or English Language, and Grade C in subjects they wish to study or related subjects.</p>
+
+<p><strong>For the one year pathway, students must achieve 4 passes at grade A* - C.</strong></p>
+
+<p><i>(Please note, English Language and Literature, Gateway Science, Additional and applied Science each count as a single subject, BTecs will be treated as a single subject).</i></p>
+
+<p>Students will be given advice and support in making their decisions during Year 11 and because we know them well, our offers reflect individual needs and match students to courses that suit them. External applicants are also expected to meet the same entry requirements and we request a reference from a student’s current school with regards to likely performance at GCSE as well as skills and aptitudes in other areas of school life.</p>
+
+<h3>Courses offered at KHS</h3>
+
+<p>
+
+
+
+<table class="tablesixth">
+				<thead>
+					<tr>
+						<th scope="col" colspan="7">Subjects</th>
+					
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th scope="row"></th>
+						<td colspan="7">
+					</tr>
+				</tfoot>
+				<tbody>
+					
+                    
+                    <tr>
+						<td><a href="documents/course_info2016-17/accounting.pdf" title="Accounting">Accounting</a></td>
+						<td><a href="documents/course_info2016-17/ancienthistory.pdf" title="Ancient History">Ancient History</a></td>
+						<td><a href="documents/course_info2016-17/artfine.pdf" title="Art and Design">Art & Design Fine Art</a></td>
+						<td><a href="documents/course_info2016-17artphoto.pdf" title="Art and Design Photography">Art & Design Photography</a></td>
+						<td><a href="documents/course_info2016-17/biology.pdf" title="Biology">Biology</a></td>
+                       	<td><a href="documents/course_info2016-17/business.pdf" title="Business">Business</a> </td> 
+						<td><a href="documents/course_info2016-17/chemistry.pdf" title="Chemistry">Chemistry</a></td>
+                     </tr>
+                     
+                     
+					<tr class="alt">
+						<td><a href="documents/course_info2016-17/childlearndevbtec.pdf" title="Children's Play, Learning & Development BTEC">Children's Play, Learning & Development BTEC</a></td>
+                        <td><a href="documents/course_info2016-17/computing.pdf" title="Computing">Computing</a></td>
+						<td><a href="documents/course_info2016-17/creativemediabtec.pdf" title="Creative Media BTEC">Creative Media BTEC</a></td>
+						<td><a href="documents/course_info2016-17/creativewriting.pdf" title="Creative Writing">Creative Writing</a></td>
+						<td><a href="documents/course_info2016-17/dance.pdf" title="Dance">Dance</a></td>
+						<td><a href="documents/course_info2016-17/designtechprod.pdf" title="Design Technology Product">Design Technology Product</a></td>
+						<td><a href="documents/course_info2016-17/designtechtex.pdf" title="Design Technology Textiles">Design Technology Textiles</a></td>
+						
+					</tr>
+					
+						<tr>
+                        <td><a href="documents/course_info2016-17/drama.pdf" title="Drama & Theatre Studies">Drama & Theatre Studies</a></td>
+						<td><a href="documents/course_info2016-17/economics.pdf" title="Economics">Economics</a></td>
+						<td><a href="documents/course_info2016-17/electronics.pdf" title="Electronic & Mechanical Engineering BTEC">Electronic & Mechanical Engineering BTEC</a></td>
+						<td><a href="documents/course_info2016-17/englishlang.pdf" title="English Language">English Language</a></td>
+						<td><a href="documents/course_info2016-17/englishlit.pdf" title="English Literature">English Literature</a></td>
+						<td><a href="documents/course_info2016-17/englishlanglit.pdf" title="English Language & Literature">English Language & Literature</a></td>
+						<td><a href="documents/course_info2016-17/environstudies.pdf" title="Environmental Studies">Environmental Studies</a></td>
+					</tr>
+                    
+                     <tr class="alt">
+						<td><a href="documents/course_info2016-17/filmstudies.pdf" title="Film Studies">Film Studies</a></td>
+						<td><a href="documents/course_info2016-17/french.pdf" title="French">French</a></td>
+						<td><a href="documents/course_info2016-17/geography.pdf" title="Geography">Geography</a></td>
+						<td><a href="documents/course_info2016-17/german.pdf" title="German">German</a></td>
+						<td><a href="documents/course_info2016-17/govpolitics.pdf" title="Government & Politics">Government & Politics</a></td>
+                     	<td><a href="documents/course_info2016-17/healthsocialcare.pdf" title="Health & Social Care (Cambridge Technical)">Health & Social Care (Cambridge Technical)</a></td>
+                        <td><a href="documents/course_info2016-17/history.pdf" title="History">History</a></td>
+                        
+                     </tr>
+                    
+                  
+
+					 <tr>
+						
+						
+						<td><a href="documents/course_info2016-17/ict.pdf" title="ICT">ICT</a></td>
+						<td><a href="documents/course_info2016-17/maths.pdf" title="Mathematics">Mathematics</a></td>
+						<td><a href="documents/course_info2016-17/furthermaths.pdf" title="Further Mathematics">Further Mathematics</a></td>
+						<td><a href="documents/course_info2016-17/mediastudies.pdf" title="Media Studies">Media Studies</a></td>
+                        <td><a href="documents/course_info2016-17/music.pdf" title="Music">Music</a></td>
+                     	<td><a href="documents/course_info2016-17/musicperf.pdf" title="Music Performance BTEC">Music Performance BTEC</a></td>
+						<td><a href="documents/course_info2016-17/musictech.pdf" title="Music Technology">Music Technology</a></td>                        
+                        
+                     
+                     
+                     </tr>
+                     
+
+					<tr class="alt">
+												
+
+						<td>Philosophy - (This subject is no longer available)</td>
+						<td><a href="documents/course_info2016-17/pe.pdf" title="Physical Education">Physical Education</a></td>
+						<td><a href="documents/course_info2016-17/physics.pdf" title="Physics">Physics</a></td>
+						<td><a href="documents/course_info2016-17/psychology.pdf" title="Psychology">Psychology</a></td>
+                        <td><a href="documents/course_info2016-17/relstudies.pdf" title="Religious Studies">Religious Studies</a></td>
+                     	<td><a href="documents/course_info2016-17/sociology.pdf" title="Sociology">Sociology</a></td>
+                    	<td><a href="aqabac.html" title="aqabac">AQA Baccalaureate <br />Extended Project Qualification (Year 13)</a></td>
+                     
+                     
+                     </tr>
+                     
+  					<tr>
+						
+  					
+                    
+                    
+                    
+                    	<td colspan="2"> </td>
+
+						<td colspan="3"> </td>
+                        
+					
+                     </tr>
+                     
+
+					
+				</tbody>
+			</table>
+      
+
+
+</p>
+
+
+
+
+<h3>Subject Selection Advice</h3>
+
+<p>It is important that pupils consider the subject combinations they select very carefully to give them a balanced portfolio. Certain career paths such as Veterinary Science, Architecture and Physiotherapy require particular A Levels to be studied, so we advise all Year 11 students to use the Careers Library and ask for an interview if they need help in making their decisions.</p>
+
+<p><strong>The one year pathways will make up the full time timetable and so no other subjects will need to be selected.</strong></p>
+<p>Late applicants will be considered alongside external applicants after the submission deadline. Applicants will be interviewed by a member of the Sixth Form Interview Team between February and April. </p>
+
+
+
+
+        
+
+		<!--END #content-->
+		</div>
+
+	<!--END #container-->
+	</div>
+
+
+	<!--BEGIN #footer-container-->
+	<div id="footer-container" class="rounded-bottom">
+
+		<!--BEGIN #footer-->
+		<div id="footer" class="clearfix">
+
+			<p id="copyright">Copyright &copy; 2015, All rights reserved</p>
+
+		  <ul id="social">
+			<li><a href="http://www.twitter.com/kesgravehigh"><img src="../images/twitter1.png" alt="Twitter" /></a></li>
+				
+		  </ul>
+
+		<!--END #footer-->
+	  </div>
+        
+	<!--END #footer-container-->
+	</div>
+
+<!--END body-->
+</body>
+<!--END html-->
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Facilities at Kesgrave Sixth Form</title>
+	<meta charset="utf-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/cufon-yui.js"></script>
+	<script src="../js/Sansation_300.font.js"></script>
+	<script src="../js/Sansation_400-Sansation_700.font.js"></script>
+	<script src="../js/hoverIntent.js"></script>
+	<script src="../js/jquery.bgiframe.min.js"></script> 
+	<script src="../js/superfish.js"></script>
+	<script src="../js/supersubs.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="../js/jquery.nivo.slider.js"></script>
+	<script src="../js/jquery.innerfade.js"></script>
+	<script src="../js/jquery.quicksand.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../js/browserDetect.js"></script>
+
+	<!-- ************************************ SKIN ************************************ -->
+	<!-- Uncomment the SKIN you want to use (make sure to only have one of the following lines uncommented) -->
+
+	<!-- Light -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/skins/sixth/blue.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/red.css" /> -->
+
+	<!-- Dark -->    
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/red.css" /> -->
+
+	<!-- Extra Dark -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/red.css" /> -->
+
+	<!-- Unique Skins -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/spring/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/fancy/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/nature/skin.css" /> -->
+	<!-- ******************************************************************************* -->
+
+	<style>
+		/************************************ NARROW LAYOUT *********************************/
+		/* If you want to have the layout not stretch to the browser borders (narrow) then uncomment the following line: */
+		 #container { width: 960px!important; }
+		/************************************************************************************/
+
+		/************************************ BACKGROUND ************************************/
+		/* You can use a solid background color... */
+		body { background-color: #d7d7d7; }
+
+		/* ...or select one of the available backgrounds (uncomment the background you want to display): */
+		/* body { background: url('images/backgrounds/background1.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background2.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background3.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background4.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background5.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background6.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background7.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background8.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background9.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background10.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background11.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background12.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background13.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background14.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background15.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background16.jpg') repeat scroll center top; } */
+		/************************************************************************************/
+
+		/************************************ TRANSPARENCY **********************************/
+		/* If using one of the DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/dark/transparent_bg.png'); } */
+
+		/* If using one of the EXTRA DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/extra_dark/transparent_bg.png'); } */
+		/************************************************************************************/
+	</style>
+
+	<script>
+		/*************************** IMPORTANT - TOP NAVIGATION FONT ************************/
+		/* If using one of the LIGHT or SPRING skins uncomment the following line and comment all others: */
+		Cufon.replace('.menu .nav > li > a', { hover: true });
+
+		/* If using one of the DARK, EXTRA DARK or FANCY skins uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(51, 51, 51, 1)', hover: true });
+
+		/* If using the NATURE skin uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(12, 147, 47, 1)', hover: true });
+		/************************************************************************************/
+	</script>
+</head>
+<body>
+	
+<!--BEGIN #header-->
+		
+<div id="header">
+
+	<!--BEGIN .menu-->
+			<div class="menu rounded-all">
+			<ul class="nav">
+			<li><a href="../index.html" title="KHS Website">Main School Site</a></li>
+			<li><a href="../sixthformindex.html" title="SixthFormHome">Home</a></li>
+            <li><a href="about.html" Title="about">About</a></li>
+            <li><a href="subjects.html" Title="subjects">Subjects</a></li>
+            <li class="current_page_item"><a href="sfacilities.html" Title="Facilties">Facilities</a></li>
+       	    <li><a href="enrichment.html" title="Enrichment">Enrichment</a>
+            
+           <ul>
+            <li><a href="aqabac.html" title="aqabac">Baccalaureate</a></li>
+            <li><a href="pse.html" title="pse">PSE</a></li>
+            <li><a href="expeditions.html" title="Expeditions">Expeditions</a></li>
+           	</ul>
+            
+            </li>
+			<li><a href="admissions.html" title="Admissions">Admissions</a></li>
+            <li><a href="team.html" title="Contact Us">Contact Us</a></li>
+			</li>
+            </ul>
+            
+		<!--END .menu-->
+  </div>
+		
+<!--END #header-->
+</div>
+
+<!--BEGIN #sub-header-->
+	<div id="sub-header" class="rounded-top">
+
+		<div id="sub-header-content">
+
+			<!-- Custom Image -->
+			<img id="sub-header-image" src="images/placeholders/900by250/sixth1.jpg" />
+
+			<!-- Meta Text -->
+		  <h2 class="rounded-right">Our Facilities</h2>
+
+		</div>
+
+	<!--END #sub-header-->
+</div>
+
+	<!--BEGIN #container-->
+	<div id="container">
+
+				<div id="sub-header-footer">
+
+			<div id="sub-header-nav">
+				<a href="../sixthformindex.html">Home</a> <span class="delimiter">&raquo;</span><span class="current"> Our Facilities</span>
+			</div>
+
+			
+
+		</div>
+
+    <!--BEGIN #content-->
+		<div id="content" class="full-width-page">
+			<h3>Our Facilties</h3>
+            
+            
+            
+            
+            <p><span class="dropcap-bg rounded-all">D</span>esigned with you in mind, our Sixth Form is a creative, welcoming environment that will teach each and every student how to make the most of every opportunity.
+Sixth Form is the stepping stone between high school and the ‘real’ world. We’re here to help you make the decisions that will shape your future. With the right guidance and encouragement (plus a fair share of first-hand experience), we’ll help you find your niche and get ready for your next steps.</p>
+
+
+
+<p>With two dedicated Sixth Form buildings; featuring state-of-the-art classrooms, an Apple Mac IT suite, meeting areas and social hubs; students are encouraged to take control of their environment by adapting it to their style of learning. If you have a study period and work best with your headphones plugged in and your head in a book, feel free. If you want to have a spirited discussion with your classmates about a psychological theory, make full use of the meeting area. There’s even an outdoor classroom located in the Site of Special Scientific Interest, for those wishing to get outside and get their hands dirty.</p>
+<br>
+
+<h3>Facilities Gallery</h3>
+<br>
+
+</div>
+
+
+
+<div id="content" class="full-width-page" align="center">
+
+<script type="text/javascript" src="images/bannerzest/facilities_bz/bzLoader.js"></script>
+
+<noscript><p style="background-color:#ffffff;color:#000000;padding:1em;">Your browser doesn't support JavaScript or you have disabled JavaScript.</p></noscript><div id="SWBZABD0235CB5EA4A88AE42"></div><div id="LKBZABD0235CB5EA4A88AE42"></div>
+
+</div>
+
+<div id="content" class="full-width-page">
+
+<br>
+
+
+
+
+</div>
+</div>
+</ul>
+
+        
+
+		<!--END #content-->
+		</div>
+
+	<!--END #container-->
+	</div>
+
+
+	<!--BEGIN #footer-container-->
+	<div id="footer-container" class="rounded-bottom">
+
+		<!--BEGIN #footer-->
+		<div id="footer" class="clearfix">
+
+			<p id="copyright">Copyright &copy; 2012, All rights reserved</p>
+
+		  <ul id="social">
+			<li><a href="http://www.twitter.com/kesgravehigh"><img src="../images/twitter1.png" alt="Twitter" /></a></li>
+				
+		  </ul>
+
+		<!--END #footer-->
+	  </div>
+        
+	<!--END #footer-container-->
+	</div>
+
+<!--END body-->
+</body>
+<!--END html-->
+</html>

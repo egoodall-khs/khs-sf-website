@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Enrichment Programme at Kesgrave Sixth Form</title>
+	<meta charset="utf-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/cufon-yui.js"></script>
+	<script src="../js/Sansation_300.font.js"></script>
+	<script src="../js/Sansation_400-Sansation_700.font.js"></script>
+	<script src="../js/hoverIntent.js"></script>
+	<script src="../js/jquery.bgiframe.min.js"></script> 
+	<script src="../js/superfish.js"></script>
+	<script src="../js/supersubs.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="../js/jquery.nivo.slider.js"></script>
+	<script src="../js/jquery.innerfade.js"></script>
+	<script src="../js/jquery.quicksand.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../js/browserDetect.js"></script>
+
+	<!-- ************************************ SKIN ************************************ -->
+	<!-- Uncomment the SKIN you want to use (make sure to only have one of the following lines uncommented) -->
+
+	<!-- Light -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/skins/sixth/blue.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/red.css" /> -->
+
+	<!-- Dark -->    
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/red.css" /> -->
+
+	<!-- Extra Dark -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/red.css" /> -->
+
+	<!-- Unique Skins -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/spring/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/fancy/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/nature/skin.css" /> -->
+	<!-- ******************************************************************************* -->
+
+	<style>
+		/************************************ NARROW LAYOUT *********************************/
+		/* If you want to have the layout not stretch to the browser borders (narrow) then uncomment the following line: */
+		 #container { width: 960px!important; }
+		/************************************************************************************/
+
+		/************************************ BACKGROUND ************************************/
+		/* You can use a solid background color... */
+		body { background-color: #d7d7d7; }
+
+		/* ...or select one of the available backgrounds (uncomment the background you want to display): */
+		/* body { background: url('images/backgrounds/background1.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background2.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background3.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background4.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background5.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background6.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background7.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background8.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background9.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background10.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background11.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background12.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background13.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background14.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background15.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background16.jpg') repeat scroll center top; } */
+		/************************************************************************************/
+
+		/************************************ TRANSPARENCY **********************************/
+		/* If using one of the DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/dark/transparent_bg.png'); } */
+
+		/* If using one of the EXTRA DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/extra_dark/transparent_bg.png'); } */
+		/************************************************************************************/
+	</style>
+
+	<script>
+		/*************************** IMPORTANT - TOP NAVIGATION FONT ************************/
+		/* If using one of the LIGHT or SPRING skins uncomment the following line and comment all others: */
+		Cufon.replace('.menu .nav > li > a', { hover: true });
+
+		/* If using one of the DARK, EXTRA DARK or FANCY skins uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(51, 51, 51, 1)', hover: true });
+
+		/* If using the NATURE skin uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(12, 147, 47, 1)', hover: true });
+		/************************************************************************************/
+	</script>
+</head>
+<body>
+	
+<!--BEGIN #header-->
+		
+<div id="header">
+
+	<!--BEGIN .menu-->
+			<div class="menu rounded-all">
+			<ul class="nav">
+			<li><a href="../index.html" title="KHS Website">Main School Site</a></li>
+			<li><a href="../sixthformindex.html" title="SixthFormHome">Home</a></li>
+            <li><a href="about.html" Title="about">About</a></li>
+            <li><a href="subjects.html" Title="subjects">Subjects</a></li>
+            <li><a href="facilities.html" Title="Facilties">Facilities</a></li>
+       	    <li class="current_page_item"><a href="enrichment.html" title="Enrichment">Enrichment</a>
+            
+           <ul>
+            <li><a href="aqabac.html" title="aqabac">Baccalaureate</a></li>
+            <li><a href="pse.html" title="pse">PSE</a></li>
+            <li><a href="expeditions.html" title="Expeditions">Expeditions</a></li>
+           	</ul>
+            
+            </li>
+			<li><a href="admissions.html" title="Admissions">Admissions</a></li>
+            <li><a href="team.html" title="Contact Us">Contact Us</a></li>
+			</li>
+            </ul>
+            
+		<!--END .menu-->
+  </div>
+
+		
+<!--END #header-->
+</div>
+
+<!--BEGIN #sub-header-->
+	<div id="sub-header" class="rounded-top">
+
+		<div id="sub-header-content">
+
+			<!-- Custom Image -->
+			<img id="sub-header-image" src="images/placeholders/900by250/general1.png" />
+
+			<!-- Meta Text -->
+		  <h2 class="rounded-right">Elective Options</h2>
+
+		</div>
+
+	<!--END #sub-header-->
+</div>
+
+	<!--BEGIN #container-->
+	<div id="container">
+    
+		<div id="sub-header-footer">
+
+			<div id="sub-header-nav">
+			<a href="../sixthformindex.html">Home</a> <span class="delimiter">&raquo;</span><span class="current"> Elective Programme</span>
+			</div>
+
+			
+
+		</div>
+
+    <!--BEGIN #content-->
+		<div id="content" class="full-width-page">
+			<h3>The Elective Programme</h3>
+            
+            
+            
+            
+            <p><span class="dropcap-bg rounded-all">A</span>t Kesgrave we feel it is important that our students have opportunities that will enable them to have a well-rounded experience of sixth form life. All Year 12 and some Year 13 students choose an elective option from our programme alongside their subjects. Some of which carry additional qualifications, others allow students to develop a new skill or simple a way of letting off steam. Year 13 students who continue with 4 subjects are not required to choose an elective option but many still do. </p>
+
+<h3>Elective options - Click the links to download more info</h3>
+
+<p>
+
+
+
+<table class="tablesixth">
+				<thead>
+					<tr>
+						<th scope="col" colspan="7">Elective Options</th>
+					
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th scope="row"></th>
+						<td colspan="7">
+					</tr>
+				</tfoot>
+				<tbody>
+					
+                    <tr>
+                        <td><a href="documents/Enrichment pages 2016-17/AAT.pdf">Adopt a Teacher</a></td>
+                        <td><a href="documents/Enrichment pages 2016-17/Computer Game Design.pdf">Computer Game Design</a></td>
+                        <td><a href="documents/Enrichment pages 2016-17/CSLA.pdf">CSLA</td>
+                        <td><a href="documents/Enrichment pages 2016-17/Silver Award Flyer 2015-2016.pdf">Duke of Edinburgh Award (Silver)</a></td>
+                        <td>Duke of Edinburgh Award (Gold)</td>
+                        
+                        
+                    </tr> 
+                     
+					<tr class="alt">
+						
+						
+                        <td><a href="documents/Enrichment pages 2016-17/General Studies.pdf">General Studies</td>
+                        <td><a href="documents/Enrichment pages 2016-17/Intro to Textiles.pdf">Introduction to Textiles</a></td>
+                        <td><a href="documents/Enrichment pages 2016-17/Literacy Ambassadors.pdf">Literacy Ambassadors</a></td>
+						<td><a href="documents/Enrichment pages 2016-17/Project Management.pdf">Project Management Skills</a></td>
+						<td><a href="documents/Enrichment pages 2016-17/Rock School.pdf">Rock School</a></td>
+                        
+                        
+                        
+                        
+						</tr>
+                        
+                     <tr>
+                    	<td><a href="documents/Enrichment pages 2016-17/Sixth Form Committee.pdf">Sixth Form Committee</a></td>
+                     	<td><a href="documents/Enrichment pages 2016-17/Sixth Form Magazine.pdf">Sixth Form Magazine</a></td>
+                       <td><a href="documents/Enrichment pages 2016-17/Sports Option.pdf">Sports Option</td>
+                        <td><a href="documents/Enrichment pages 2016-17/Work Experience.pdf">Work Experience</a></td>
+                     
+                            
+                    </tr> 
+                     
+	
+					
+				</tbody>
+			</table>
+      
+
+
+</p>
+
+<p>As well as the enrichment programme, there are other opportunities to extend your experience. Whatever you go on to do after Sixth Form, it is always good to have a point of difference on your CV or UCAS application, and this opportunity allows students to explore and develop outside the normal constraints of an academic environment.</p>
+
+<p>We have a Sixth Form Committee who are proactive in improving the experience of sixth form life. They take on different roles and are often involved with charity work within the community. Every year there is an <a href="expeditions.html">Expedition</a> to a developing country with a focus on community and conservation projects. Students in Year 13 can undertake the <a href="aqabac.html">AQA Baccalaureate</a> or the <a href="aqabac.html">Extended Project Qualification</a>. This qualification is highly regarded by universities as it develops independent learners. There are also opportunities to be part of Drama productions on and off stage or by part of our up and coming Sixth Form magazine.</p>
+
+
+
+
+		<!--END #content-->
+		</div>
+
+	<!--END #container-->
+	</div>
+
+
+	<!--BEGIN #footer-container-->
+	<div id="footer-container" class="rounded-bottom">
+
+		<!--BEGIN #footer-->
+		<div id="footer" class="clearfix">
+
+			<p id="copyright">Copyright &copy; 2015, All rights reserved</p>
+
+		  <ul id="social">
+			<li><a href="http://www.twitter.com/kesgravehigh"><img src="../images/twitter1.png" alt="Twitter" /></a></li>
+				
+		  </ul>
+
+		<!--END #footer-->
+	  </div>
+        
+	<!--END #footer-container-->
+	</div>
+
+<!--END body-->
+</body>
+<!--END html-->
+</html>

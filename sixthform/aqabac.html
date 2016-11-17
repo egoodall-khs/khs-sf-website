@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>AQA BACCALAUREATE and EXTENDED PROJECT QUALIFICATION</title>
+	<meta charset="utf-8" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/style.css" />
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css" />
+
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<script src="../js/cufon-yui.js"></script>
+	<script src="../js/Sansation_300.font.js"></script>
+	<script src="../js/Sansation_400-Sansation_700.font.js"></script>
+	<script src="../js/hoverIntent.js"></script>
+	<script src="../js/jquery.bgiframe.min.js"></script> 
+	<script src="../js/superfish.js"></script>
+	<script src="../js/supersubs.js"></script>
+	<script src="../js/jquery.prettyPhoto.js"></script>
+	<script src="../js/jquery.nivo.slider.js"></script>
+	<script src="../js/jquery.innerfade.js"></script>
+	<script src="../js/jquery.quicksand.js"></script>
+	<script src="../js/screen.js"></script>
+	<script src="../js/browserDetect.js"></script>
+
+	<!-- ************************************ SKIN ************************************ -->
+	<!-- Uncomment the SKIN you want to use (make sure to only have one of the following lines uncommented) -->
+
+	<!-- Light -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../css/skins/sixth/blue.css" />
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/light/red.css" /> -->
+
+	<!-- Dark -->    
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/dark/red.css" /> -->
+
+	<!-- Extra Dark -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/blue.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/pink.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/green.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/yellow.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/extra_dark/red.css" /> -->
+
+	<!-- Unique Skins -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/spring/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/fancy/skin.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" media="screen, projection" href="css/skins/nature/skin.css" /> -->
+	<!-- ******************************************************************************* -->
+
+	<style>
+		/************************************ NARROW LAYOUT *********************************/
+		/* If you want to have the layout not stretch to the browser borders (narrow) then uncomment the following line: */
+		 #container { width: 960px!important; }
+		/************************************************************************************/
+
+		/************************************ BACKGROUND ************************************/
+		/* You can use a solid background color... */
+		body { background-color: #d7d7d7; }
+
+		/* ...or select one of the available backgrounds (uncomment the background you want to display): */
+		/* body { background: url('images/backgrounds/background1.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background2.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background3.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background4.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background5.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background6.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background7.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background8.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background9.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background10.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background11.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background12.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background13.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background14.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background15.jpg') repeat scroll center top; } */
+		/* body { background: url('images/backgrounds/background16.jpg') repeat scroll center top; } */
+		/************************************************************************************/
+
+		/************************************ TRANSPARENCY **********************************/
+		/* If using one of the DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/dark/transparent_bg.png'); } */
+
+		/* If using one of the EXTRA DARK skins and you want transparent background, uncomment the following line and comment all others: */
+		/* #container, #slider-container, #sub-header, #footer-container { background-color: transparent!important; background-image: url('css/skins/extra_dark/transparent_bg.png'); } */
+		/************************************************************************************/
+	</style>
+
+	<script>
+		/*************************** IMPORTANT - TOP NAVIGATION FONT ************************/
+		/* If using one of the LIGHT or SPRING skins uncomment the following line and comment all others: */
+		Cufon.replace('.menu .nav > li > a', { hover: true });
+
+		/* If using one of the DARK, EXTRA DARK or FANCY skins uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(51, 51, 51, 1)', hover: true });
+
+		/* If using the NATURE skin uncomment the following line and comment all others: */
+		//Cufon.replace('.menu .nav > li > a', { textShadow: '-1px -1px rgba(12, 147, 47, 1)', hover: true });
+		/************************************************************************************/
+	</script>
+</head>
+<body>
+	
+<!--BEGIN #header-->
+		
+<div id="header">
+
+	<!--BEGIN .menu-->
+			<div class="menu rounded-all">
+			<ul class="nav">
+			<li><a href="../index.html" title="KHS Website">Main School Site</a></li>
+			<li><a href="../sixthformindex.html" title="SixthFormHome">Home</a></li>
+            <li><a href="about.html" Title="about">About</a></li>
+            <li><a href="subjects.html" Title="subjects">Subjects</a></li>
+            <li><a href="facilities.html" Title="Facilties">Facilities</a></li>
+       	    <li><a href="enrichment.html" title="Enrichment">Enrichment</a>
+            
+           <ul>
+            <li class="current_page_item"><a href="aqabac.html" title="aqabac">Baccalaureate</a></li>
+            <li><a href="pse.html" title="pse">PSE</a></li>
+            <li><a href="expeditions.html" title="Expeditions">Expeditions</a></li>
+           	</ul>
+            
+            </li>
+			<li><a href="admissions.html" title="Admissions">Admissions</a></li>
+            <li><a href="team.html" title="Contact Us">Contact Us</a></li>
+			</li>
+            </ul>
+            
+		<!--END .menu-->
+  </div>
+		
+<!--END #header-->
+</div>
+
+<!--BEGIN #sub-header-->
+	<div id="sub-header" class="rounded-top">
+
+		<div id="sub-header-content">
+
+			<!-- Custom Image -->
+			<img id="sub-header-image" src="images/placeholders/900by250/general2.png" />
+
+			<!-- Meta Text -->
+		  <h2 class="rounded-right">AQA BACCALAUREATE</h2>
+
+		</div>
+
+	<!--END #sub-header-->
+</div>
+
+	<!--BEGIN #container-->
+	<div id="container">
+
+				<div id="sub-header-footer">
+			<div id="sub-header-nav">
+            
+            
+				<a href="../sixthformindex.html">Home</a> <span class="delimiter">&raquo;</span><span class="current"> AQA BACCALAUREATE and EXTENDED PROJECT QUALIFICATION</span>
+			</div>
+
+			
+
+		</div>
+
+    <!--BEGIN #content-->
+		<div id="content" class="full-width-page">
+			<h3>AQA BACCALAUREATE and EXTENDED PROJECT QUALIFICATION</h3>
+            
+          
+
+
+            
+            
+            <p><span class="dropcap-bg rounded-all">T</span>he AQA Baccalaureate is an additional qualification that students can choose on top of their A Level studies.  It is a qualification which recognises and celebrates the achievements of well rounded students with A-Levels and more. It encourages self-management, independence, initiative and personal development: all crucial skills in the work place and for Higher Education. </p>
+            
+            
+     
+            
+            <p>The Baccalaureate is made up of 4 parts:</p>
+            
+
+
+<ul class="bullet-circle">
+<li>1. Academic Study in-depth</li>
+<li>2. Broader Study</li>
+<li>3. Enrichment Activities</li>
+<li>4. Independent learning - The Extended Project Qualification</li>
+</ul>
+      
+ <p>Students build on core A Level subjects, adding value through wider learning and enrichment activities.  Students can complete a Baccalaureate based on GCE A Levels awarded by any awarding body to achieve a grade of Pass, Merit or Distinction.</p>           
+            
+
+
+
+<h3>1. Academic Study in-depth</h3>
+
+<p>Students need to pass three A Level subjects that they have chosen  (not including General Studies).</p>
+
+
+<h3>2. Broader Study</h3>
+
+<p>Students must gain an AS pass in General Studies or Critical Thinking.</p>
+
+
+
+<h3>3. Enrichment Activities</h3>
+
+<p>Student need to complete at least 100 hours of enrichment activities over the two years.
+	These hours need to be made up from at least 2 or 3 core areas:
+</p>
+
+<ul class="bullet-circle">
+<li><strong>Work related learning</strong> - Activities that involve students, as active participants, in learning about the world of work.  This could be a work experience placement, work shadowing or paid employment.</li>
+<li><strong>Community participation</strong> - Activities in which students work will benefit others.  This could be voluntary work in school (adopt a teacher, peer mentoring, helping with the house system, CLSA, council/committee representatives).  It also includes V-Involved, community radio, helping with charities, mentoring/coaching etc. </li>
+<li><strong>Personal development</strong> - Activities that students choose to do in addition to their academic studies.  This includes sports, music, drama, film, dance, debating club, first aid, driving lessons, D of E, skills of recreation e.g. photography, chess, creative writing etc.</li>
+<p><a href="https://baccdiary.aqa.org.uk/">The on-line Enrichment Diary</a></strong> - This is where students log their enrichment activities.  They can include evidence such as photos or describe what it is they have done.</p>
+
+</ul>
+ 
+ </p>
+ 
+ 
+
+<h3>4. Extended Project (independent learning)</h3>
+
+<p>Another AS is awarded for this.  Students can choose to explore a further aspect of a subject they are studying, or another subject, or simply choose a topic that they have a personal interest in.  The finished project can be a written report, a performance, a piece of art, a community project, a CD or DVD, or even computer software.  Each student will have a supervisor and must complete a presentation to an invited audience as well as a written report or artefact.</p>
+
+
+
+
+         	<!-- Separator -->
+			<div class="hr"><hr /></div>
+
+
+
+
+
+
+<h3>Why choose the Baccalaureate?</h3>
+
+<p>The AQA Baccalaureate can effectively strengthen and illustrate skills such as
+
+<ul class="bullet-circle">
+<li>self management</li>
+<li>independence</li>
+<li>communication</li>
+<li>initiative</li>
+</ul>
+      
+
+</p>
+
+<p><strong>For Further Information please visit the <a href="http://web.aqa.org.uk/qual/bacc.php">AQA Website.</a></strong></p>
+
+
+
+        
+
+		<!--END #content-->
+		</div>
+
+	<!--END #container-->
+	</div>
+
+
+	<!--BEGIN #footer-container-->
+	<div id="footer-container" class="rounded-bottom">
+
+		<!--BEGIN #footer-->
+		<div id="footer" class="clearfix">
+
+			<p id="copyright">Copyright &copy; 2012, All rights reserved</p>
+
+		  <ul id="social">
+			<li><a href="http://www.twitter.com/kesgravehigh"><img src="../images/twitter1.png" alt="Twitter" /></a></li>
+				
+		  </ul>
+
+		<!--END #footer-->
+	  </div>
+        
+	<!--END #footer-container-->
+	</div>
+
+<!--END body-->
+</body>
+<!--END html-->
+</html>
