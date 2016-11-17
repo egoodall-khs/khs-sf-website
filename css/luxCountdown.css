@@ -1,0 +1,152 @@
+.lux-countdown
+{
+	float: left;
+	width: 220px;
+	height: auto;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.45);
+	-webkit-box-shadow: 0px 3px 6px rgba(0,0,0,0.45);
+	-moz-box-shadow: 0px 3px 6px rgba(0,0,0,0.45);
+	-o-box-shadow: 0px 3px 6px rgba(0,0,0,0.45);
+	
+	background: #006633;
+	
+	
+	border-radius: 6px;
+	padding: 12px;
+	
+	font: 14px Verdana,Arial,Geneva,Helvetica,sans-serif;
+	color: #ffffff;
+	line-height: 17px;
+
+}
+
+.lux-countdown p
+{
+	float: left;
+	width: 100%;
+}
+
+.lux-countdown-title
+{
+	font-size: 20px; 
+	line-height: 23px;
+	height: 23px;
+	font-weight: bold;
+}
+
+.lux-countdown-text
+{
+	height: auto;
+		font-size: 15px;
+		text-align:center;
+}
+
+.lux-countdown-text, .lux-countdown-countdown, 
+.lux-countdown-datesWrap, .lux-countdown-countdownBar
+{
+	margin-top: 3px;
+}
+
+.lux-countdown-countdown
+{
+	margin-top: 4px;
+}
+
+.lux-countdown-datesWrap
+{
+	margin-top: 12px;
+	text-align: center;
+}
+
+.lux-countdown-countdown
+{
+	text-align: center;
+	line-height: 3px;
+	height: 23px;
+	font-size: 23px;
+}
+
+.lux-countdown-datesWrap span
+{
+	font-size: 12px;
+}
+
+.lux-countdown-start
+{
+	float: left;
+}
+
+.lux-countdown-end
+{
+	float: right;
+}
+
+.lux-countdown-perc
+{
+	color: red;
+	transition-property: opacity; 
+	transition-duration: 0.5s;
+	-webkit-transition-property: opacity; 
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-property: opacity; 
+	-moz-transition-duration: 0.5s;
+	-0-transition-property: opacity; 
+	-0-transition-duration: 0.5s;
+	
+	opacity: 0;
+	filter: alpha(opacity=0);
+	filter: "alpha(opacity=0)";
+	text-shadow: 0px 0px 5px #d00;
+}
+
+.lux-countdown-countdownBar
+{
+	border: 1px solid #ff6600;
+	border-radius: 3px;
+	height: 10px;
+	padding: 2px;
+	
+	transition-property: border-color; 
+	transition-duration: 0.5s;
+	-webkit-transition-property: border-color; 
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-property: border-color; 
+	-moz-transition-duration: 0.5s;
+	-o-transition-property: border-color; 
+	-o-transition-duration: 0.5s;
+	
+	width: 200px !important; /* calculated according to padding and border width */
+}
+
+.lux-countdown-countdownBar:hover
+{
+	border-color: rgb(255,0,0);
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}
+
+.lux-countdown-countdownBar span
+{
+	float: left;
+	border-radius: 3px;
+	
+	background: rgb(255,0,0);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD700', endColorstr='#FF7F00'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,215,0)), to(rgb(255,127,0)));
+	background: -moz-linear-gradient(top,  rgb(255,215,0),  rgb(255,127,0)); /* for firefox 3.6+ */ 
+	background: -o-linear-gradient(top,  rgb(255,215,0),  rgb(255,127,0));  
+	
+	height: 10px;
+}
+
+.lux-countdown-countdownBar:hover span
+{
+	background: rgb(255,0,0);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF7F00', endColorstr='#FF0000'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,127,0)), to(rgb(255,0,0)));
+	background: -moz-linear-gradient(top,  rgb(255,127,0),  rgb(255,0,0)); /* for firefox 3.6+ */ 
+	background: -o-linear-gradient(top,  rgb(255,127,0),  rgb(255,0,0)); 
+}
+
+
+

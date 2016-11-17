@@ -1,0 +1,264 @@
+/*----------------------------------------------------------------------------- 
+
+freshCloud - THEME BLUE
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	09/22/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+
+/***********************************
+	- THE BackGround Classes - 
+************************************/
+.bg-class {
+	background:url(../images/assets/pattern.jpg);
+}
+
+/************************************
+	-	The Top Cloud Background -
+*************************************/
+
+.top_background_image {
+	margin-left:-1000px;
+	width: 2000px;
+	height: 841px;
+	background: url(../images/assets/background.jpg) no-repeat;
+	
+}
+
+
+/*******************************************
+	-	THE BIG BANNER 	-
+********************************************/	
+.custom_mini_thumbnail_buttons { background-image:url(../images/assets/rama/navigation/buttons.png) !important; }	/* The Small Thumbnail Button Source */
+
+.custom_previous, .custom_next,  .frames_slider #toolbox #next,.frames_slider #toolbox #prev {
+	background-image: url(../images/assets/rama/navigation/nextprev.png) !important;
+}
+
+
+/*****************************************
+	-  BIG (MOTION SLIDER) THUMBNAIL - 
+******************************************/	
+.motion .thumb {
+	float:left;
+	width:22px;
+	height:22px;	
+	background: url(../images/assets/motion/buttons.png) no-repeat;
+	cursor: pointer;
+}
+
+/*******************************
+ - FOOTER INPUT HOVER     -
+********************************/
+#footer input[type='text']:hover{
+	color: #74C5ED;
+}
+#footer input[type='text']:focus,#footer #response{
+	color: #74C5ED;
+}
+
+
+
+/*******************************
+ - SIDEMENU     -
+********************************/
+#main_sidemenu .updown {
+	background: url(../images/standard/menu/go_top.png) no-repeat;
+}
+#main_sidemenu .plusminus {
+	background: url(../images/standard/menu/open_close_button.png) no-repeat;
+}
+
+/*******************************
+	-	SLOGAN    -
+********************************/
+
+#slogan_pic{
+	clear: both;
+	position: relative;
+	width: 600px;
+	height: 62px;
+	margin: 0 auto;
+	background: #fff url('../images/standard/slogan.png') no-repeat center center;
+}
+
+
+/*******************************
+	-	LIGHTBOX SETTINGS    -
+********************************/
+.draw_layer_over_item{ background-color: #74c5ed !important;}
+
+.fh_lightbox_holder{ background-color:#74c5ed !important;}
+
+.fh_lightbox_info_box .title{ color:#74c5ed !important;}
+
+.fh_lightbox_info_box .content{ color:#fff; }
+
+
+/*******************************
+	-	SHORTCODES    -
+********************************/
+
+/* Toggles */
+.toggle-title {
+	background: url('../images/assets/head_1.png');
+}
+
+.toggle-title_opened{
+	background: url('../images/assets/head_2.png');-moz-user-select: none;
+	background-color:#74C5ED;
+}
+
+.toggle-content {
+	background: url('../images/assets/pattern_body.jpg');
+	background-color:#74C5ED;
+}
+
+
+
+
+/**********************
+	-	TABS	-
+**********************/
+
+ul.tabs li {
+	
+	background: url('../images/assets/head_1.png');-moz-user-select: none;
+	-webkit-user-select:none;
+	-khtml-user-select: none;
+	user-select: none;
+	background-color:#a3a8ab;
+}
+
+ul.tabs li.ui-state-active {
+	background: url('../images/assets/head_2.png');-moz-user-select: none;
+	-webkit-user-select:none;
+	-khtml-user-select: none;
+	user-select: none;	
+	background-color:#74C5ED;
+}
+
+.tabs-container div.panel {
+	background: url('../images/assets/pattern_body.jpg');
+}	
+
+
+
+
+/**********************************
+	-	CODE AND PRE FORMATTING
+**********************************/
+code, pre {
+	background-color:#262f34;
+	color:#74C5ED;
+	text-align:left;	
+	font-size: 13px;
+	line-height: 16px;
+	padding:12px;
+	margin: 0px 0px;
+	-webkit-box-shadow: inset 2px 0px 10px 2px #222;
+	-moz-box-shadow: inset 2px 0px 10px 2px #222;
+	box-shadow: inset 2px 0px 10px  2px #222;
+}
+
+
+
+/******************
+	-	Quote 	-
+*******************/
+blockquote p{
+	background:url('../images/assets/quote_down.png') no-repeat top left;
+	padding: 0 0 0 40px;
+}
+
+
+
+
+
+
+/******************************
+	
+	- COLORS -
+
+*******************************/
+/******************
+   - MAIN COLOR  -
+******************/  
+
+#main_sidemenu .menu ul >li:hover,#main_sidemenu .menu ul >li .selected, .menu a:hover {color: #74C5ED !important; }
+.color-style,  p.dropcap_color-style:first-letter { color: #336699;} 
+.back_color-style      { background-color: #74C5ED; } 
+.button.color-style         { background-color: #74C5ED;} 
+.button.color-style:hover   { background-color: #74C5ED; }
+
+
+/*******************************
+   - ALL PREDEFINED COLORS  -
+********************************/  
+
+.gray,p.dropcap_gray:first-letter         
+{ color: #a3a8ab; } 
+
+.lightgray, p.dropcap_lightgray:first-letter	  								
+{ color: #93979a;}
+
+.red, p.dropcap_red:first-letter          
+{ color: #ED7486 !important; } 
+
+.yellow, p.dropcap_yellow:first-letter      
+{ color: #F6D078 ;} 
+
+.blue, p.dropcap_blue:first-letter		  
+{ color: #74C5ED;} 
+
+.green, p.dropcap_green:first-letter        
+{ color: #93ce41; } 
+
+.gold, p.dropcap_gold:first-letter         
+{ color: #AEA87E; } 
+
+
+/****************************************
+	- ALL PREDEFINED BACKGROUNDCOLORS -
+******************************************/
+.back_gray      { background-color: #a3a8ab; } 
+.back_lightgray	{ background-color: #93979a; }
+.back_red       { background-color: #ED7486;} 
+.back_yellow    { background-color: #F6D078 ; } 
+.back_blue      { background-color: #74C5ED; } 
+.back_green     { background-color: #93ce41; } 
+.back_gold      { background-color: #AEA87E; } 
+
+
+
+/****************************************
+	- ALL PREDEFINED BUTTON COLORS -
+******************************************/
+
+.button.white         { background-color: #fff; } 
+.button.white:hover   { background-color: #fff; }
+
+
+.button.gray         { background-color: #a3a8ab; } 
+.button.gray:hover   { background-color: #a3a8ab; }
+ 
+.button.red          { background-color: #ED7486; } 
+.button.red:hover    { background-color: #ED7486; }
+
+.button.yellow       { background-color: #F6D078 ; } 
+.button.yellow:hover { background-color: #F6D078 ; }
+
+.button.blue         { background-color: #74C5ED;} 
+.button.blue:hover   { background-color: #74C5ED; }
+
+.button.green        { background-color: #93ce41; } 
+.button.green:hover  { background-color: #93ce41; }
+
+.button.gold        { background-color: #AEA87E; } 
+.button.gold:hover  { background-color: #AEA87E; }
